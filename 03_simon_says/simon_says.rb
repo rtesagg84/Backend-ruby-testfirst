@@ -24,9 +24,9 @@ def titleize input
 		if count == 0
 			word.capitalize!
 			count = 1
-		elsif word == "and" || word == "over" || word == "the"
+		 elsif word == "and" || word == "over" || word == "the"
 			word.downcase!
-		else
+		  else
 			word.capitalize!
 		end
 	end

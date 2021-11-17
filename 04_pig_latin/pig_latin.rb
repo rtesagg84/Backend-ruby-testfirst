@@ -7,8 +7,7 @@ def translate string
 		length = word.length
 		if 'aoiue'.include? word[count]
 			this_word = word + 'ay'
-		else
-
+		 else
 			count += 1
 			cons = true
 			while cons
