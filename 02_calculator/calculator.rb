@@ -10,7 +10,7 @@ def sum array
   array.each do|item|
     count += item 
   end
-count
+ count
 end
 def multiplies(a,b)
 	multiply(a,b)
@@ -24,7 +24,7 @@ def multiply args
 	else
 		args.each do |num| 
 			mult = num * mult
-		end
+	   end
 	end
 	mult
 end
@@ -34,15 +34,15 @@ def power(a,b)
 end
 
 def fuctorial(num)
-fact=1
-if (num == 0)
-	puts "Error! Could not find the factorial of one"
-else
-	i=1
-	while(i <= num)
-		fact = fact*i
-		i+=1
+  fact=1
+	if (num == 0)
+	  puts "Error! Could not find the factorial of one"
+	else
+	  i=1
+		while(i <= num)
+			fact = fact*i
+			i+=1
+		end
 	end
-end
-		puts "factorial of #{num} is #{fact}"
+	puts "factorial of #{num} is #{fact}"
 end

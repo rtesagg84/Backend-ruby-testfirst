@@ -26,6 +26,6 @@ class Book
        puts "this is the new title #{newTitle}"
        puts"----------------------------"
     end
-	end
-    book = Book.new()
-    book.title(" the red book looks a big book")
+end
+book = Book.new()
+book.title(" the red book looks a big book")
