@@ -3,6 +3,6 @@ def hello
 "Hello!"
 end
 
-def greet(aster)
-"Hello, #{aster}!"
+def greet(john)
+"Hello, #{john}!"
 end
